@@ -2,6 +2,9 @@
 title: "Viridis Demo"
 output: html_document
 ---
+```{r}
+print('Hello jialucao')
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -19,7 +22,7 @@ summary(cars)
 
 ## Including Plots
 try to insert a new rmd chunk
-```{r}
+```{r eval=FALSE, include=FALSE}
 library(viridis)
 ```
 
